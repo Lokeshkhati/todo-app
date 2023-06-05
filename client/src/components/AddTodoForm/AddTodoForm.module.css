@@ -1,0 +1,48 @@
+.form {
+  width: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 2rem 1rem 1rem;
+  border-radius: 3px;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+.form input,
+textarea {
+  padding: 0.8rem;
+  outline: none;
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.form textarea {
+  outline: none;
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 3px;
+  resize: none;
+  overflow-y: scroll;
+  height: 100px;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+.btns button {
+  border: none;
+  padding: 0.4rem 1.2rem;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cancelButton {
+  color: #4f46e5;
+}
+.addButton {
+  background-color: #4f46e5;
+  color: #fff;
+}
